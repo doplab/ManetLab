@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70349F615515AE4003BDEA3 /* MLUNIXSocketServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A70349F215515AE4003BDEA3 /* MLUNIXSocketServer.h */; settings = {ATTRIBUTES = (); }; };
+		A70349F715515AE4003BDEA3 /* MLUNIXSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A70349F315515AE4003BDEA3 /* MLUNIXSocketServer.m */; };
+		A70E870E1463EC98004F6311 /* MLController.h in Headers */ = {isa = PBXBuildFile; fileRef = A70E870C1463EC98004F6311 /* MLController.h */; settings = {ATTRIBUTES = (); }; };
+		A70E870F1463EC98004F6311 /* MLController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70E870D1463EC98004F6311 /* MLController.m */; };
+		A722BB8715AD76CB00CB40AA /* MLMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A722BB8115AD76CB00CB40AA /* MLMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A722BB8815AD76CB00CB40AA /* MLMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A722BB8215AD76CB00CB40AA /* MLMessage.m */; };
+		A722BB8915AD76CB00CB40AA /* MLStackLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A722BB8315AD76CB00CB40AA /* MLStackLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A722BB8A15AD76CB00CB40AA /* MLStackLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A722BB8415AD76CB00CB40AA /* MLStackLayer.m */; };
+		A722BB8B15AD76CB00CB40AA /* MLStackLayersList.h in Headers */ = {isa = PBXBuildFile; fileRef = A722BB8515AD76CB00CB40AA /* MLStackLayersList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A722BB8C15AD76CB00CB40AA /* MLStackLayersList.m in Sources */ = {isa = PBXBuildFile; fileRef = A722BB8615AD76CB00CB40AA /* MLStackLayersList.m */; };
+		A728AE3D156151AD0014395A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A728AE3C156151AD0014395A /* CoreLocation.framework */; };
+		A72CFF171577BA7800943D2E /* MLTask.h in Headers */ = {isa = PBXBuildFile; fileRef = A72CFF151577BA7800943D2E /* MLTask.h */; settings = {ATTRIBUTES = (); }; };
+		A72CFF181577BA7800943D2E /* MLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A72CFF161577BA7800943D2E /* MLTask.m */; };
+		A734DC57147A553900EE21CF /* MLStreamsUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A734DC55147A553900EE21CF /* MLStreamsUtility.h */; settings = {ATTRIBUTES = (); }; };
+		A734DC58147A553900EE21CF /* MLStreamsUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A734DC56147A553900EE21CF /* MLStreamsUtility.m */; };
+		A73E53A714741E0200B409F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73E53A614741E0200B409F7 /* Security.framework */; };
+		A750A9681484E9CB00180FDA /* ManetLabFramework+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A750A9661484E9CB00180FDA /* ManetLabFramework+Internal.h */; settings = {ATTRIBUTES = (); }; };
+		A750A9691484E9CB00180FDA /* ManetLabFramework+Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = A750A9671484E9CB00180FDA /* ManetLabFramework+Internal.m */; };
+		A750A96B1485032600180FDA /* MLWLANController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EF24D514593C3F002E26F8 /* MLWLANController.h */; settings = {ATTRIBUTES = (); }; };
+		A750A96C1485032C00180FDA /* ML_SL_WLANController.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EF24D714593C3F002E26F8 /* ML_SL_WLANController.h */; settings = {ATTRIBUTES = (); }; };
+		A772CAC11498A72C006A4D0E /* MLStack.h in Headers */ = {isa = PBXBuildFile; fileRef = A772CABF1498A72C006A4D0E /* MLStack.h */; settings = {ATTRIBUTES = (); }; };
+		A772CAC21498A72C006A4D0E /* MLStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A772CAC01498A72C006A4D0E /* MLStack.m */; };
+		A772CACA1498A790006A4D0E /* MLLowestLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A772CAC81498A790006A4D0E /* MLLowestLayer.h */; settings = {ATTRIBUTES = (); }; };
+		A772CACB1498A790006A4D0E /* MLLowestLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A772CAC91498A790006A4D0E /* MLLowestLayer.m */; };
+		A799ADEA1483F1D500BFB4D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A799ADE91483F1D500BFB4D2 /* SystemConfiguration.framework */; };
+		A79C69A2147AAD3700371CAA /* MLAgentProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A79C69A0147AAD3700371CAA /* MLAgentProxy.h */; settings = {ATTRIBUTES = (); }; };
+		A79C69A3147AAD3700371CAA /* MLAgentProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A79C69A1147AAD3700371CAA /* MLAgentProxy.m */; };
+		A7C5B545146815600072E31B /* MLAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C5B543146815600072E31B /* MLAgent.h */; settings = {ATTRIBUTES = (); }; };
+		A7C5B546146815600072E31B /* MLAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C5B544146815600072E31B /* MLAgent.m */; };
+		A7EF24C114593B3A002E26F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7EF24BF14593B3A002E26F8 /* InfoPlist.strings */; };
+		A7EF24DA14593C3F002E26F8 /* MLWLANController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EF24D614593C3F002E26F8 /* MLWLANController.m */; };
+		A7EF24DE14593C56002E26F8 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7EF24DD14593C56002E26F8 /* CoreWLAN.framework */; };
+		A7EF24DF14593CC7002E26F8 /* ManetLabFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EF24C314593B3A002E26F8 /* ManetLabFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7F648EC147D4C7E00CFD036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F648EB147D4C7E00CFD036 /* Foundation.framework */; };
+		A7F648EE147D4D5B00CFD036 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F648ED147D4D5B00CFD036 /* CoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A70349F215515AE4003BDEA3 /* MLUNIXSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLUNIXSocketServer.h; sourceTree = "<group>"; };
+		A70349F315515AE4003BDEA3 /* MLUNIXSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLUNIXSocketServer.m; sourceTree = "<group>"; };
+		A70E870C1463EC98004F6311 /* MLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLController.h; sourceTree = "<group>"; };
+		A70E870D1463EC98004F6311 /* MLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLController.m; sourceTree = "<group>"; };
+		A722BB8115AD76CB00CB40AA /* MLMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMessage.h; sourceTree = "<group>"; };
+		A722BB8215AD76CB00CB40AA /* MLMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMessage.m; sourceTree = "<group>"; };
+		A722BB8315AD76CB00CB40AA /* MLStackLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLStackLayer.h; sourceTree = "<group>"; };
+		A722BB8415AD76CB00CB40AA /* MLStackLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLStackLayer.m; sourceTree = "<group>"; };
+		A722BB8515AD76CB00CB40AA /* MLStackLayersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLStackLayersList.h; sourceTree = "<group>"; };
+		A722BB8615AD76CB00CB40AA /* MLStackLayersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLStackLayersList.m; sourceTree = "<group>"; };
+		A728AE3C156151AD0014395A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A72CFF151577BA7800943D2E /* MLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLTask.h; sourceTree = "<group>"; };
+		A72CFF161577BA7800943D2E /* MLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLTask.m; sourceTree = "<group>"; };
+		A734DC55147A553900EE21CF /* MLStreamsUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLStreamsUtility.h; sourceTree = "<group>"; };
+		A734DC56147A553900EE21CF /* MLStreamsUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLStreamsUtility.m; sourceTree = "<group>"; };
+		A73E53A614741E0200B409F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A750A9661484E9CB00180FDA /* ManetLabFramework+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ManetLabFramework+Internal.h"; sourceTree = "<group>"; };
+		A750A9671484E9CB00180FDA /* ManetLabFramework+Internal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ManetLabFramework+Internal.m"; sourceTree = "<group>"; };
+		A772CABF1498A72C006A4D0E /* MLStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLStack.h; sourceTree = "<group>"; };
+		A772CAC01498A72C006A4D0E /* MLStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLStack.m; sourceTree = "<group>"; };
+		A772CAC81498A790006A4D0E /* MLLowestLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLowestLayer.h; sourceTree = "<group>"; };
+		A772CAC91498A790006A4D0E /* MLLowestLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLowestLayer.m; sourceTree = "<group>"; };
+		A79296991626F021002E44DD /* MLMessage+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLMessage+Internal.h"; sourceTree = "<group>"; };
+		A792969B1626F074002E44DD /* MLStackLayer+Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLStackLayer+Internal.h"; sourceTree = "<group>"; };
+		A799ADE91483F1D500BFB4D2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A79C69A0147AAD3700371CAA /* MLAgentProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAgentProxy.h; sourceTree = "<group>"; };
+		A79C69A1147AAD3700371CAA /* MLAgentProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAgentProxy.m; sourceTree = "<group>"; };
+		A7C5B543146815600072E31B /* MLAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAgent.h; sourceTree = "<group>"; };
+		A7C5B544146815600072E31B /* MLAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAgent.m; sourceTree = "<group>"; };
+		A7EF24B314593B3A002E26F8 /* ManetLabFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ManetLabFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF24BE14593B3A002E26F8 /* ManetLabFramework-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManetLabFramework-Info.plist"; sourceTree = "<group>"; };
+		A7EF24C014593B3A002E26F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7EF24C214593B3A002E26F8 /* ManetLabFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManetLabFramework-Prefix.pch"; sourceTree = "<group>"; };
+		A7EF24C314593B3A002E26F8 /* ManetLabFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManetLabFramework.h; sourceTree = "<group>"; };
+		A7EF24D514593C3F002E26F8 /* MLWLANController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLWLANController.h; sourceTree = "<group>"; };
+		A7EF24D614593C3F002E26F8 /* MLWLANController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLWLANController.m; sourceTree = "<group>"; };
+		A7EF24D714593C3F002E26F8 /* ML_SL_WLANController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ML_SL_WLANController.h; sourceTree = "<group>"; };
+		A7EF24D814593C3F002E26F8 /* ML_SL_WLANController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ML_SL_WLANController.m; sourceTree = "<group>"; };
+		A7EF24DD14593C56002E26F8 /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		A7F648EB147D4C7E00CFD036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F648ED147D4D5B00CFD036 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7EF24AF14593B3A002E26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A728AE3D156151AD0014395A /* CoreLocation.framework in Frameworks */,
+				A799ADEA1483F1D500BFB4D2 /* SystemConfiguration.framework in Frameworks */,
+				A7F648EE147D4D5B00CFD036 /* CoreServices.framework in Frameworks */,
+				A7F648EC147D4C7E00CFD036 /* Foundation.framework in Frameworks */,
+				A73E53A714741E0200B409F7 /* Security.framework in Frameworks */,
+				A7EF24DE14593C56002E26F8 /* CoreWLAN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7326AF0155D5CA900A4D185 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF24C314593B3A002E26F8 /* ManetLabFramework.h */,
+				A750A9661484E9CB00180FDA /* ManetLabFramework+Internal.h */,
+				A750A9671484E9CB00180FDA /* ManetLabFramework+Internal.m */,
+				A7EF24D514593C3F002E26F8 /* MLWLANController.h */,
+				A7EF24D614593C3F002E26F8 /* MLWLANController.m */,
+				A7EF24D714593C3F002E26F8 /* ML_SL_WLANController.h */,
+				A7EF24D814593C3F002E26F8 /* ML_SL_WLANController.m */,
+				A70349F215515AE4003BDEA3 /* MLUNIXSocketServer.h */,
+				A70349F315515AE4003BDEA3 /* MLUNIXSocketServer.m */,
+				A734DC55147A553900EE21CF /* MLStreamsUtility.h */,
+				A734DC56147A553900EE21CF /* MLStreamsUtility.m */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		A7326AF1155D5CDE00A4D185 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A70E870C1463EC98004F6311 /* MLController.h */,
+				A70E870D1463EC98004F6311 /* MLController.m */,
+				A72CFF151577BA7800943D2E /* MLTask.h */,
+				A72CFF161577BA7800943D2E /* MLTask.m */,
+				A79C69A0147AAD3700371CAA /* MLAgentProxy.h */,
+				A79C69A1147AAD3700371CAA /* MLAgentProxy.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A7326AF2155D5CE600A4D185 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				A7C5B543146815600072E31B /* MLAgent.h */,
+				A7C5B544146815600072E31B /* MLAgent.m */,
+				A772CABF1498A72C006A4D0E /* MLStack.h */,
+				A772CAC01498A72C006A4D0E /* MLStack.m */,
+				A772CAC81498A790006A4D0E /* MLLowestLayer.h */,
+				A772CAC91498A790006A4D0E /* MLLowestLayer.m */,
+				A722BB8115AD76CB00CB40AA /* MLMessage.h */,
+				A79296991626F021002E44DD /* MLMessage+Internal.h */,
+				A722BB8215AD76CB00CB40AA /* MLMessage.m */,
+				A722BB8315AD76CB00CB40AA /* MLStackLayer.h */,
+				A792969B1626F074002E44DD /* MLStackLayer+Internal.h */,
+				A722BB8415AD76CB00CB40AA /* MLStackLayer.m */,
+				A722BB8515AD76CB00CB40AA /* MLStackLayersList.h */,
+				A722BB8615AD76CB00CB40AA /* MLStackLayersList.m */,
+			);
+			name = Agent;
+			sourceTree = "<group>";
+		};
+		A7EF24A714593B3A002E26F8 = {
+			isa = PBXGroup;
+			children = (
+				A7EF24BC14593B3A002E26F8 /* ManetLabFramework */,
+				A7EF24B514593B3A002E26F8 /* Frameworks */,
+				A7EF24B414593B3A002E26F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7EF24B414593B3A002E26F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF24B314593B3A002E26F8 /* ManetLabFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7EF24B514593B3A002E26F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A728AE3C156151AD0014395A /* CoreLocation.framework */,
+				A799ADE91483F1D500BFB4D2 /* SystemConfiguration.framework */,
+				A7F648ED147D4D5B00CFD036 /* CoreServices.framework */,
+				A7F648EB147D4C7E00CFD036 /* Foundation.framework */,
+				A73E53A614741E0200B409F7 /* Security.framework */,
+				A7EF24DD14593C56002E26F8 /* CoreWLAN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7EF24BC14593B3A002E26F8 /* ManetLabFramework */ = {
+			isa = PBXGroup;
+			children = (
+				A7326AF0155D5CA900A4D185 /* General */,
+				A7326AF1155D5CDE00A4D185 /* Controller */,
+				A7326AF2155D5CE600A4D185 /* Agent */,
+				A7EF24BD14593B3A002E26F8 /* Supporting Files */,
+			);
+			path = ManetLabFramework;
+			sourceTree = "<group>";
+		};
+		A7EF24BD14593B3A002E26F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF24BE14593B3A002E26F8 /* ManetLabFramework-Info.plist */,
+				A7EF24BF14593B3A002E26F8 /* InfoPlist.strings */,
+				A7EF24C214593B3A002E26F8 /* ManetLabFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7EF24B014593B3A002E26F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF24DF14593CC7002E26F8 /* ManetLabFramework.h in Headers */,
+				A722BB8715AD76CB00CB40AA /* MLMessage.h in Headers */,
+				A722BB8915AD76CB00CB40AA /* MLStackLayer.h in Headers */,
+				A722BB8B15AD76CB00CB40AA /* MLStackLayersList.h in Headers */,
+				A70E870E1463EC98004F6311 /* MLController.h in Headers */,
+				A7C5B545146815600072E31B /* MLAgent.h in Headers */,
+				A734DC57147A553900EE21CF /* MLStreamsUtility.h in Headers */,
+				A79C69A2147AAD3700371CAA /* MLAgentProxy.h in Headers */,
+				A750A9681484E9CB00180FDA /* ManetLabFramework+Internal.h in Headers */,
+				A750A96B1485032600180FDA /* MLWLANController.h in Headers */,
+				A750A96C1485032C00180FDA /* ML_SL_WLANController.h in Headers */,
+				A772CAC11498A72C006A4D0E /* MLStack.h in Headers */,
+				A72CFF171577BA7800943D2E /* MLTask.h in Headers */,
+				A772CACA1498A790006A4D0E /* MLLowestLayer.h in Headers */,
+				A70349F615515AE4003BDEA3 /* MLUNIXSocketServer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7EF24B214593B3A002E26F8 /* ManetLabFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EF24C814593B3A002E26F8 /* Build configuration list for PBXNativeTarget "ManetLabFramework" */;
+			buildPhases = (
+				A7EF24AE14593B3A002E26F8 /* Sources */,
+				A7EF24AF14593B3A002E26F8 /* Frameworks */,
+				A7EF24B014593B3A002E26F8 /* Headers */,
+				A7EF24B114593B3A002E26F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManetLabFramework;
+			productName = ManetLabFramework;
+			productReference = A7EF24B314593B3A002E26F8 /* ManetLabFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7EF24A914593B3A002E26F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = A7EF24AC14593B3A002E26F8 /* Build configuration list for PBXProject "ManetLabFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7EF24A714593B3A002E26F8;
+			productRefGroup = A7EF24B414593B3A002E26F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7EF24B214593B3A002E26F8 /* ManetLabFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7EF24B114593B3A002E26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF24C114593B3A002E26F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7EF24AE14593B3A002E26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EF24DA14593C3F002E26F8 /* MLWLANController.m in Sources */,
+				A70E870F1463EC98004F6311 /* MLController.m in Sources */,
+				A7C5B546146815600072E31B /* MLAgent.m in Sources */,
+				A734DC58147A553900EE21CF /* MLStreamsUtility.m in Sources */,
+				A79C69A3147AAD3700371CAA /* MLAgentProxy.m in Sources */,
+				A750A9691484E9CB00180FDA /* ManetLabFramework+Internal.m in Sources */,
+				A772CAC21498A72C006A4D0E /* MLStack.m in Sources */,
+				A772CACB1498A790006A4D0E /* MLLowestLayer.m in Sources */,
+				A70349F715515AE4003BDEA3 /* MLUNIXSocketServer.m in Sources */,
+				A72CFF181577BA7800943D2E /* MLTask.m in Sources */,
+				A722BB8815AD76CB00CB40AA /* MLMessage.m in Sources */,
+				A722BB8A15AD76CB00CB40AA /* MLStackLayer.m in Sources */,
+				A722BB8C15AD76CB00CB40AA /* MLStackLayersList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7EF24BF14593B3A002E26F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7EF24C014593B3A002E26F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7EF24C614593B3A002E26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7EF24C714593B3A002E26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7EF24C914593B3A002E26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManetLabFramework/ManetLabFramework-Prefix.pch";
+				INFOPLIST_FILE = "ManetLabFramework/ManetLabFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A7EF24CA14593B3A002E26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManetLabFramework/ManetLabFramework-Prefix.pch";
+				INFOPLIST_FILE = "ManetLabFramework/ManetLabFramework-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7EF24AC14593B3A002E26F8 /* Build configuration list for PBXProject "ManetLabFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF24C614593B3A002E26F8 /* Debug */,
+				A7EF24C714593B3A002E26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EF24C814593B3A002E26F8 /* Build configuration list for PBXNativeTarget "ManetLabFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EF24C914593B3A002E26F8 /* Debug */,
+				A7EF24CA14593B3A002E26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7EF24A914593B3A002E26F8 /* Project object */;
+}

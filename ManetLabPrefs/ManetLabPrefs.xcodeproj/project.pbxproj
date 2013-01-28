@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A700DE2215DCD81800F5EA58 /* MondoSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = A700DE1A15DCD81800F5EA58 /* MondoSwitch.h */; };
+		A700DE2315DCD81800F5EA58 /* MondoSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = A700DE1B15DCD81800F5EA58 /* MondoSwitch.m */; };
+		A700DE2415DCD81800F5EA58 /* MondoSwitch_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A700DE1C15DCD81800F5EA58 /* MondoSwitch_Private.h */; };
+		A700DE2515DCD81800F5EA58 /* MondoSwitchButtonCALayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A700DE1D15DCD81800F5EA58 /* MondoSwitchButtonCALayer.h */; };
+		A700DE2615DCD81800F5EA58 /* MondoSwitchButtonCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A700DE1E15DCD81800F5EA58 /* MondoSwitchButtonCALayer.m */; };
+		A700DE2715DCD81800F5EA58 /* MondoSwitchButtonCALayer_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A700DE1F15DCD81800F5EA58 /* MondoSwitchButtonCALayer_Private.h */; };
+		A700DE2815DCD81800F5EA58 /* PPCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = A700DE2015DCD81800F5EA58 /* PPCommon.h */; };
+		A700DE2915DCD81800F5EA58 /* PPCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = A700DE2115DCD81800F5EA58 /* PPCommon.m */; };
+		A700DE2F15DCDAD800F5EA58 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A700DE2E15DCDAD800F5EA58 /* QuartzCore.framework */; };
+		A70C991914443B7400B85AC1 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70C991814443B7400B85AC1 /* CoreWLAN.framework */; };
+		A78E6DE8162C74F2007CAA1B /* ml-icon-ader.png in Resources */ = {isa = PBXBuildFile; fileRef = A78E6DE7162C74F2007CAA1B /* ml-icon-ader.png */; };
+		A78E6DEB162C754C007CAA1B /* ml-small.png in Resources */ = {isa = PBXBuildFile; fileRef = A78E6DEA162C754C007CAA1B /* ml-small.png */; };
+		A7B36172147119F100C7DA83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B36171147119F100C7DA83 /* SystemConfiguration.framework */; };
+		A7BF1FFC141F2EA60089BA0A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BF1FFB141F2EA60089BA0A /* Cocoa.framework */; };
+		A7BF1FFE141F2EA60089BA0A /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BF1FFD141F2EA60089BA0A /* PreferencePanes.framework */; };
+		A7BF2008141F2EA60089BA0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7BF2006141F2EA60089BA0A /* InfoPlist.strings */; };
+		A7BF200B141F2EA60089BA0A /* ManetLabPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BF200A141F2EA60089BA0A /* ManetLabPrefs.h */; };
+		A7BF200D141F2EA60089BA0A /* ManetLabPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BF200C141F2EA60089BA0A /* ManetLabPrefs.m */; };
+		A7BF2012141F2EA60089BA0A /* ManetLabPrefs.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7BF2010141F2EA60089BA0A /* ManetLabPrefs.xib */; };
+		A7C91E2F14574E620055B505 /* WLANManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A7C91E2D14574E620055B505 /* WLANManager.h */; };
+		A7C91E3014574E620055B505 /* WLANManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C91E2E14574E620055B505 /* WLANManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A700DE1A15DCD81800F5EA58 /* MondoSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MondoSwitch.h; sourceTree = "<group>"; };
+		A700DE1B15DCD81800F5EA58 /* MondoSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MondoSwitch.m; sourceTree = "<group>"; };
+		A700DE1C15DCD81800F5EA58 /* MondoSwitch_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MondoSwitch_Private.h; sourceTree = "<group>"; };
+		A700DE1D15DCD81800F5EA58 /* MondoSwitchButtonCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MondoSwitchButtonCALayer.h; sourceTree = "<group>"; };
+		A700DE1E15DCD81800F5EA58 /* MondoSwitchButtonCALayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MondoSwitchButtonCALayer.m; sourceTree = "<group>"; };
+		A700DE1F15DCD81800F5EA58 /* MondoSwitchButtonCALayer_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MondoSwitchButtonCALayer_Private.h; sourceTree = "<group>"; };
+		A700DE2015DCD81800F5EA58 /* PPCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPCommon.h; sourceTree = "<group>"; };
+		A700DE2115DCD81800F5EA58 /* PPCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPCommon.m; sourceTree = "<group>"; };
+		A700DE2E15DCDAD800F5EA58 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A70C991814443B7400B85AC1 /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+		A78E6DE7162C74F2007CAA1B /* ml-icon-ader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ml-icon-ader.png"; sourceTree = "<group>"; };
+		A78E6DEA162C754C007CAA1B /* ml-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ml-small.png"; sourceTree = "<group>"; };
+		A7B36171147119F100C7DA83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A7BF1FF8141F2EA60089BA0A /* ManetLabPrefs.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManetLabPrefs.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BF1FFB141F2EA60089BA0A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A7BF1FFD141F2EA60089BA0A /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		A7BF2002141F2EA60089BA0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7BF2005141F2EA60089BA0A /* ManetLabPrefs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ManetLabPrefs-Info.plist"; sourceTree = "<group>"; };
+		A7BF2007141F2EA60089BA0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7BF2009141F2EA60089BA0A /* ManetLabPrefs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ManetLabPrefs-Prefix.pch"; sourceTree = "<group>"; };
+		A7BF200A141F2EA60089BA0A /* ManetLabPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManetLabPrefs.h; sourceTree = "<group>"; };
+		A7BF200C141F2EA60089BA0A /* ManetLabPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManetLabPrefs.m; sourceTree = "<group>"; };
+		A7BF2011141F2EA60089BA0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ManetLabPrefs.xib; sourceTree = "<group>"; };
+		A7C91E2D14574E620055B505 /* WLANManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLANManager.h; sourceTree = "<group>"; };
+		A7C91E2E14574E620055B505 /* WLANManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLANManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7BF1FF3141F2EA60089BA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A700DE2F15DCDAD800F5EA58 /* QuartzCore.framework in Frameworks */,
+				A7B36172147119F100C7DA83 /* SystemConfiguration.framework in Frameworks */,
+				A70C991914443B7400B85AC1 /* CoreWLAN.framework in Frameworks */,
+				A7BF1FFC141F2EA60089BA0A /* Cocoa.framework in Frameworks */,
+				A7BF1FFE141F2EA60089BA0A /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A700DE1915DCD81800F5EA58 /* mondoSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A700DE1A15DCD81800F5EA58 /* MondoSwitch.h */,
+				A700DE1B15DCD81800F5EA58 /* MondoSwitch.m */,
+				A700DE1C15DCD81800F5EA58 /* MondoSwitch_Private.h */,
+				A700DE1D15DCD81800F5EA58 /* MondoSwitchButtonCALayer.h */,
+				A700DE1E15DCD81800F5EA58 /* MondoSwitchButtonCALayer.m */,
+				A700DE1F15DCD81800F5EA58 /* MondoSwitchButtonCALayer_Private.h */,
+				A700DE2015DCD81800F5EA58 /* PPCommon.h */,
+				A700DE2115DCD81800F5EA58 /* PPCommon.m */,
+			);
+			path = mondoSwitch;
+			sourceTree = "<group>";
+		};
+		A7BF1FEB141F2EA60089BA0A = {
+			isa = PBXGroup;
+			children = (
+				A7DF4070142247C700DE839B /* Images */,
+				A7BF2003141F2EA60089BA0A /* ManetLabPrefs */,
+				A7BF1FFA141F2EA60089BA0A /* Frameworks */,
+				A7BF1FF9141F2EA60089BA0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7BF1FF9141F2EA60089BA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF1FF8141F2EA60089BA0A /* ManetLabPrefs.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7BF1FFA141F2EA60089BA0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A700DE2E15DCDAD800F5EA58 /* QuartzCore.framework */,
+				A7B36171147119F100C7DA83 /* SystemConfiguration.framework */,
+				A70C991814443B7400B85AC1 /* CoreWLAN.framework */,
+				A7BF1FFD141F2EA60089BA0A /* PreferencePanes.framework */,
+				A7BF1FFF141F2EA60089BA0A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7BF1FFF141F2EA60089BA0A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF1FFB141F2EA60089BA0A /* Cocoa.framework */,
+				A7BF2002141F2EA60089BA0A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A7BF2003141F2EA60089BA0A /* ManetLabPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF200A141F2EA60089BA0A /* ManetLabPrefs.h */,
+				A7BF200C141F2EA60089BA0A /* ManetLabPrefs.m */,
+				A7BF2010141F2EA60089BA0A /* ManetLabPrefs.xib */,
+				A700DE1915DCD81800F5EA58 /* mondoSwitch */,
+				A7C91E2D14574E620055B505 /* WLANManager.h */,
+				A7C91E2E14574E620055B505 /* WLANManager.m */,
+				A7BF2004141F2EA60089BA0A /* Supporting Files */,
+			);
+			path = ManetLabPrefs;
+			sourceTree = "<group>";
+		};
+		A7BF2004141F2EA60089BA0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF2005141F2EA60089BA0A /* ManetLabPrefs-Info.plist */,
+				A7BF2006141F2EA60089BA0A /* InfoPlist.strings */,
+				A7BF2009141F2EA60089BA0A /* ManetLabPrefs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7DF4070142247C700DE839B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A78E6DEA162C754C007CAA1B /* ml-small.png */,
+				A78E6DE7162C74F2007CAA1B /* ml-icon-ader.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7BF1FF4141F2EA60089BA0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BF200B141F2EA60089BA0A /* ManetLabPrefs.h in Headers */,
+				A7C91E2F14574E620055B505 /* WLANManager.h in Headers */,
+				A700DE2215DCD81800F5EA58 /* MondoSwitch.h in Headers */,
+				A700DE2415DCD81800F5EA58 /* MondoSwitch_Private.h in Headers */,
+				A700DE2515DCD81800F5EA58 /* MondoSwitchButtonCALayer.h in Headers */,
+				A700DE2715DCD81800F5EA58 /* MondoSwitchButtonCALayer_Private.h in Headers */,
+				A700DE2815DCD81800F5EA58 /* PPCommon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7BF1FF7141F2EA60089BA0A /* ManetLabPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7BF2015141F2EA60089BA0A /* Build configuration list for PBXNativeTarget "ManetLabPrefs" */;
+			buildPhases = (
+				A7BF1FF2141F2EA60089BA0A /* Sources */,
+				A7BF1FF3141F2EA60089BA0A /* Frameworks */,
+				A7BF1FF4141F2EA60089BA0A /* Headers */,
+				A7BF1FF5141F2EA60089BA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManetLabPrefs;
+			productName = ManetLabPrefs;
+			productReference = A7BF1FF8141F2EA60089BA0A /* ManetLabPrefs.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7BF1FED141F2EA60089BA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = A7BF1FF0141F2EA60089BA0A /* Build configuration list for PBXProject "ManetLabPrefs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7BF1FEB141F2EA60089BA0A;
+			productRefGroup = A7BF1FF9141F2EA60089BA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7BF1FF7141F2EA60089BA0A /* ManetLabPrefs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7BF1FF5141F2EA60089BA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BF2008141F2EA60089BA0A /* InfoPlist.strings in Resources */,
+				A7BF2012141F2EA60089BA0A /* ManetLabPrefs.xib in Resources */,
+				A78E6DE8162C74F2007CAA1B /* ml-icon-ader.png in Resources */,
+				A78E6DEB162C754C007CAA1B /* ml-small.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BF1FF2141F2EA60089BA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7BF200D141F2EA60089BA0A /* ManetLabPrefs.m in Sources */,
+				A7C91E3014574E620055B505 /* WLANManager.m in Sources */,
+				A700DE2315DCD81800F5EA58 /* MondoSwitch.m in Sources */,
+				A700DE2615DCD81800F5EA58 /* MondoSwitchButtonCALayer.m in Sources */,
+				A700DE2915DCD81800F5EA58 /* PPCommon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7BF2006141F2EA60089BA0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BF2007141F2EA60089BA0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7BF2010141F2EA60089BA0A /* ManetLabPrefs.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7BF2011141F2EA60089BA0A /* en */,
+			);
+			name = ManetLabPrefs.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7BF2013141F2EA60089BA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7BF2014141F2EA60089BA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7BF2016141F2EA60089BA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug\"",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManetLabPrefs/ManetLabPrefs-Prefix.pch";
+				INFOPLIST_FILE = "ManetLabPrefs/ManetLabPrefs-Info.plist";
+				INSTALL_PATH = /Library/PreferencePanes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		A7BF2017141F2EA60089BA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug\"",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ManetLabPrefs/ManetLabPrefs-Prefix.pch";
+				INFOPLIST_FILE = "ManetLabPrefs/ManetLabPrefs-Info.plist";
+				INSTALL_PATH = /Library/PreferencePanes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7BF1FF0141F2EA60089BA0A /* Build configuration list for PBXProject "ManetLabPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF2013141F2EA60089BA0A /* Debug */,
+				A7BF2014141F2EA60089BA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7BF2015141F2EA60089BA0A /* Build configuration list for PBXNativeTarget "ManetLabPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BF2016141F2EA60089BA0A /* Debug */,
+				A7BF2017141F2EA60089BA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7BF1FED141F2EA60089BA0A /* Project object */;
+}

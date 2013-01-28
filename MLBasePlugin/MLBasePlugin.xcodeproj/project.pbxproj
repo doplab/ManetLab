@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A71F675E1656E3E3006D8EA7 /* SimpleFlooding.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F675D1656E3E3006D8EA7 /* SimpleFlooding.m */; };
+		A71F67621656E4BC006D8EA7 /* CBS.m in Sources */ = {isa = PBXBuildFile; fileRef = A71F67611656E4BC006D8EA7 /* CBS.m */; };
+		A73FC154162848CE00B77F83 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73FC153162848CE00B77F83 /* SenTestingKit.framework */; };
+		A73FC155162848CE00B77F83 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759C42F15D8FA1A006F18AF /* Cocoa.framework */; };
+		A73FC15B162848CE00B77F83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A73FC159162848CE00B77F83 /* InfoPlist.strings */; };
+		A73FC15E162848CE00B77F83 /* MLBasePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A73FC15D162848CE00B77F83 /* MLBasePluginTest.m */; };
+		A73FC1651628498B00B77F83 /* ManetLabFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759C44115D8FC0B006F18AF /* ManetLabFramework.framework */; };
+		A759C43015D8FA1A006F18AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759C42F15D8FA1A006F18AF /* Cocoa.framework */; };
+		A759C43A15D8FA1A006F18AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A759C43815D8FA1A006F18AF /* InfoPlist.strings */; };
+		A759C44215D8FC0B006F18AF /* ManetLabFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A759C44115D8FC0B006F18AF /* ManetLabFramework.framework */; };
+		A759C44515D8FC76006F18AF /* MLPLayersList.m in Sources */ = {isa = PBXBuildFile; fileRef = A759C44415D8FC76006F18AF /* MLPLayersList.m */; };
+		A759C44815D8FCAC006F18AF /* Gossip.m in Sources */ = {isa = PBXBuildFile; fileRef = A759C44715D8FCAC006F18AF /* Gossip.m */; };
+		A79F0AF21647B21200580877 /* FragSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F0AF11647B21200580877 /* FragSession.m */; };
+		A7ADFACC16551F17001A26D3 /* PluginSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7ADFACB16551F17001A26D3 /* PluginSettings.plist */; };
+		A7E816A715F8A6CD0085648F /* Fragmentation.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E816A615F8A6CD0085648F /* Fragmentation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A71F675C1656E3E3006D8EA7 /* SimpleFlooding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFlooding.h; sourceTree = "<group>"; };
+		A71F675D1656E3E3006D8EA7 /* SimpleFlooding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFlooding.m; sourceTree = "<group>"; };
+		A71F67601656E4BC006D8EA7 /* CBS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBS.h; sourceTree = "<group>"; };
+		A71F67611656E4BC006D8EA7 /* CBS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBS.m; sourceTree = "<group>"; };
+		A73FC152162848CE00B77F83 /* MLBasePluginTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBasePluginTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73FC153162848CE00B77F83 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A73FC158162848CE00B77F83 /* MLBasePluginTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLBasePluginTest-Info.plist"; sourceTree = "<group>"; };
+		A73FC15A162848CE00B77F83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A73FC15C162848CE00B77F83 /* MLBasePluginTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLBasePluginTest.h; sourceTree = "<group>"; };
+		A73FC15D162848CE00B77F83 /* MLBasePluginTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLBasePluginTest.m; sourceTree = "<group>"; };
+		A73FC15F162848CE00B77F83 /* MLBasePluginTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLBasePluginTest-Prefix.pch"; sourceTree = "<group>"; };
+		A759C42C15D8FA1A006F18AF /* MLBasePlugin.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLBasePlugin.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		A759C42F15D8FA1A006F18AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A759C43215D8FA1A006F18AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A759C43315D8FA1A006F18AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A759C43415D8FA1A006F18AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A759C43715D8FA1A006F18AF /* MLBasePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLBasePlugin-Info.plist"; sourceTree = "<group>"; };
+		A759C43915D8FA1A006F18AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A759C43B15D8FA1A006F18AF /* MLBasePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLBasePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		A759C44115D8FC0B006F18AF /* ManetLabFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManetLabFramework.framework; path = /Library/Frameworks/ManetLabFramework.framework; sourceTree = "<absolute>"; };
+		A759C44315D8FC76006F18AF /* MLPLayersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPLayersList.h; sourceTree = "<group>"; };
+		A759C44415D8FC76006F18AF /* MLPLayersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPLayersList.m; sourceTree = "<group>"; };
+		A759C44615D8FCAC006F18AF /* Gossip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gossip.h; sourceTree = "<group>"; };
+		A759C44715D8FCAC006F18AF /* Gossip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gossip.m; sourceTree = "<group>"; };
+		A79F0AF01647B21200580877 /* FragSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FragSession.h; sourceTree = "<group>"; };
+		A79F0AF11647B21200580877 /* FragSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FragSession.m; sourceTree = "<group>"; };
+		A7ADFACB16551F17001A26D3 /* PluginSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PluginSettings.plist; sourceTree = "<group>"; };
+		A7E816A515F8A6CD0085648F /* Fragmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fragmentation.h; sourceTree = "<group>"; };
+		A7E816A615F8A6CD0085648F /* Fragmentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fragmentation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73FC14E162848CE00B77F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73FC1651628498B00B77F83 /* ManetLabFramework.framework in Frameworks */,
+				A73FC154162848CE00B77F83 /* SenTestingKit.framework in Frameworks */,
+				A73FC155162848CE00B77F83 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A759C42915D8FA1A006F18AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A759C44215D8FC0B006F18AF /* ManetLabFramework.framework in Frameworks */,
+				A759C43015D8FA1A006F18AF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73FC156162848CE00B77F83 /* MLBasePluginTest */ = {
+			isa = PBXGroup;
+			children = (
+				A73FC15C162848CE00B77F83 /* MLBasePluginTest.h */,
+				A73FC15D162848CE00B77F83 /* MLBasePluginTest.m */,
+				A73FC157162848CE00B77F83 /* Supporting Files */,
+			);
+			path = MLBasePluginTest;
+			sourceTree = "<group>";
+		};
+		A73FC157162848CE00B77F83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A73FC158162848CE00B77F83 /* MLBasePluginTest-Info.plist */,
+				A73FC159162848CE00B77F83 /* InfoPlist.strings */,
+				A73FC15F162848CE00B77F83 /* MLBasePluginTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A759C42115D8FA1A006F18AF = {
+			isa = PBXGroup;
+			children = (
+				A759C43515D8FA1A006F18AF /* MLBasePlugin */,
+				A73FC156162848CE00B77F83 /* MLBasePluginTest */,
+				A759C42E15D8FA1A006F18AF /* Frameworks */,
+				A759C42D15D8FA1A006F18AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A759C42D15D8FA1A006F18AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A759C42C15D8FA1A006F18AF /* MLBasePlugin.plugin */,
+				A73FC152162848CE00B77F83 /* MLBasePluginTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A759C42E15D8FA1A006F18AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A759C44115D8FC0B006F18AF /* ManetLabFramework.framework */,
+				A759C42F15D8FA1A006F18AF /* Cocoa.framework */,
+				A73FC153162848CE00B77F83 /* SenTestingKit.framework */,
+				A759C43115D8FA1A006F18AF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A759C43115D8FA1A006F18AF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A759C43215D8FA1A006F18AF /* AppKit.framework */,
+				A759C43315D8FA1A006F18AF /* CoreData.framework */,
+				A759C43415D8FA1A006F18AF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A759C43515D8FA1A006F18AF /* MLBasePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				A759C43615D8FA1A006F18AF /* Supporting Files */,
+				A759C44315D8FC76006F18AF /* MLPLayersList.h */,
+				A759C44415D8FC76006F18AF /* MLPLayersList.m */,
+				A759C44615D8FCAC006F18AF /* Gossip.h */,
+				A759C44715D8FCAC006F18AF /* Gossip.m */,
+				A7E816A515F8A6CD0085648F /* Fragmentation.h */,
+				A7E816A615F8A6CD0085648F /* Fragmentation.m */,
+				A79F0AF01647B21200580877 /* FragSession.h */,
+				A79F0AF11647B21200580877 /* FragSession.m */,
+				A7ADFACB16551F17001A26D3 /* PluginSettings.plist */,
+				A71F675C1656E3E3006D8EA7 /* SimpleFlooding.h */,
+				A71F675D1656E3E3006D8EA7 /* SimpleFlooding.m */,
+				A71F67601656E4BC006D8EA7 /* CBS.h */,
+				A71F67611656E4BC006D8EA7 /* CBS.m */,
+			);
+			path = MLBasePlugin;
+			sourceTree = "<group>";
+		};
+		A759C43615D8FA1A006F18AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A759C43715D8FA1A006F18AF /* MLBasePlugin-Info.plist */,
+				A759C43815D8FA1A006F18AF /* InfoPlist.strings */,
+				A759C43B15D8FA1A006F18AF /* MLBasePlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73FC151162848CE00B77F83 /* MLBasePluginTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73FC162162848CE00B77F83 /* Build configuration list for PBXNativeTarget "MLBasePluginTest" */;
+			buildPhases = (
+				A73FC14D162848CE00B77F83 /* Sources */,
+				A73FC14E162848CE00B77F83 /* Frameworks */,
+				A73FC14F162848CE00B77F83 /* Resources */,
+				A73FC150162848CE00B77F83 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLBasePluginTest;
+			productName = MLBasePluginTest;
+			productReference = A73FC152162848CE00B77F83 /* MLBasePluginTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A759C42B15D8FA1A006F18AF /* MLBasePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A759C43E15D8FA1A006F18AF /* Build configuration list for PBXNativeTarget "MLBasePlugin" */;
+			buildPhases = (
+				A759C42815D8FA1A006F18AF /* Sources */,
+				A759C42915D8FA1A006F18AF /* Frameworks */,
+				A759C42A15D8FA1A006F18AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLBasePlugin;
+			productName = MLBasePlugin;
+			productReference = A759C42C15D8FA1A006F18AF /* MLBasePlugin.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A759C42315D8FA1A006F18AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "UNIL - HEC - ISI - DopLab";
+			};
+			buildConfigurationList = A759C42615D8FA1A006F18AF /* Build configuration list for PBXProject "MLBasePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A759C42115D8FA1A006F18AF;
+			productRefGroup = A759C42D15D8FA1A006F18AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A759C42B15D8FA1A006F18AF /* MLBasePlugin */,
+				A73FC151162848CE00B77F83 /* MLBasePluginTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73FC14F162848CE00B77F83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73FC15B162848CE00B77F83 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A759C42A15D8FA1A006F18AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A759C43A15D8FA1A006F18AF /* InfoPlist.strings in Resources */,
+				A7ADFACC16551F17001A26D3 /* PluginSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A73FC150162848CE00B77F83 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73FC14D162848CE00B77F83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73FC15E162848CE00B77F83 /* MLBasePluginTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A759C42815D8FA1A006F18AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A759C44515D8FC76006F18AF /* MLPLayersList.m in Sources */,
+				A759C44815D8FCAC006F18AF /* Gossip.m in Sources */,
+				A7E816A715F8A6CD0085648F /* Fragmentation.m in Sources */,
+				A79F0AF21647B21200580877 /* FragSession.m in Sources */,
+				A71F675E1656E3E3006D8EA7 /* SimpleFlooding.m in Sources */,
+				A71F67621656E4BC006D8EA7 /* CBS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A73FC159162848CE00B77F83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A73FC15A162848CE00B77F83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A759C43815D8FA1A006F18AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A759C43915D8FA1A006F18AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A73FC160162848CE00B77F83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBasePluginTest/MLBasePluginTest-Prefix.pch";
+				INFOPLIST_FILE = "MLBasePluginTest/MLBasePluginTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A73FC161162848CE00B77F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBasePluginTest/MLBasePluginTest-Prefix.pch";
+				INFOPLIST_FILE = "MLBasePluginTest/MLBasePluginTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		A759C43C15D8FA1A006F18AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A759C43D15D8FA1A006F18AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A759C43F15D8FA1A006F18AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBasePlugin/MLBasePlugin-Prefix.pch";
+				INFOPLIST_FILE = "MLBasePlugin/MLBasePlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		A759C44015D8FA1A006F18AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Library/Frameworks,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLBasePlugin/MLBasePlugin-Prefix.pch";
+				INFOPLIST_FILE = "MLBasePlugin/MLBasePlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73FC162162848CE00B77F83 /* Build configuration list for PBXNativeTarget "MLBasePluginTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73FC160162848CE00B77F83 /* Debug */,
+				A73FC161162848CE00B77F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A759C42615D8FA1A006F18AF /* Build configuration list for PBXProject "MLBasePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A759C43C15D8FA1A006F18AF /* Debug */,
+				A759C43D15D8FA1A006F18AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A759C43E15D8FA1A006F18AF /* Build configuration list for PBXNativeTarget "MLBasePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A759C43F15D8FA1A006F18AF /* Debug */,
+				A759C44015D8FA1A006F18AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A759C42315D8FA1A006F18AF /* Project object */;
+}

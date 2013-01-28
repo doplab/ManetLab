@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A73D769C147E439D004C4421 /* MLLauncherDaemon.m in Sources */ = {isa = PBXBuildFile; fileRef = A73D769B147E439D004C4421 /* MLLauncherDaemon.m */; };
+		A7456908158A02FC00F98D16 /* ManetLabFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7456907158A02FC00F98D16 /* ManetLabFramework.framework */; };
+		A7F648FF147D507F00CFD036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F648FE147D507F00CFD036 /* Foundation.framework */; };
+		A7F64902147D507F00CFD036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F64901147D507F00CFD036 /* main.m */; };
+		A7F64906147D507F00CFD036 /* mllauncherd.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A7F64905147D507F00CFD036 /* mllauncherd.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7F648F8147D507F00CFD036 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A7F64906147D507F00CFD036 /* mllauncherd.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A71B8AC01495F2AE00BF0FCA /* ch.unil.doplab.mllauncherd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ch.unil.doplab.mllauncherd.plist; sourceTree = "<group>"; };
+		A73D769A147E439D004C4421 /* MLLauncherDaemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLauncherDaemon.h; sourceTree = "<group>"; };
+		A73D769B147E439D004C4421 /* MLLauncherDaemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLauncherDaemon.m; sourceTree = "<group>"; };
+		A7456907158A02FC00F98D16 /* ManetLabFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ManetLabFramework.framework; path = "../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug/ManetLabFramework.framework"; sourceTree = "<group>"; };
+		A7F648FA147D507F00CFD036 /* mllauncherd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mllauncherd; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F648FE147D507F00CFD036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F64901147D507F00CFD036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F64904147D507F00CFD036 /* mllauncherd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mllauncherd-Prefix.pch"; sourceTree = "<group>"; };
+		A7F64905147D507F00CFD036 /* mllauncherd.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mllauncherd.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F648F7147D507F00CFD036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7456908158A02FC00F98D16 /* ManetLabFramework.framework in Frameworks */,
+				A7F648FF147D507F00CFD036 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F648EF147D507F00CFD036 = {
+			isa = PBXGroup;
+			children = (
+				A7F64900147D507F00CFD036 /* mllauncherd */,
+				A7F648FD147D507F00CFD036 /* Frameworks */,
+				A7F648FB147D507F00CFD036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F648FB147D507F00CFD036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F648FA147D507F00CFD036 /* mllauncherd */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F648FD147D507F00CFD036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7456907158A02FC00F98D16 /* ManetLabFramework.framework */,
+				A7F648FE147D507F00CFD036 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7F64900147D507F00CFD036 /* mllauncherd */ = {
+			isa = PBXGroup;
+			children = (
+				A71B8AC01495F2AE00BF0FCA /* ch.unil.doplab.mllauncherd.plist */,
+				A7F64901147D507F00CFD036 /* main.m */,
+				A7F64905147D507F00CFD036 /* mllauncherd.1 */,
+				A73D769A147E439D004C4421 /* MLLauncherDaemon.h */,
+				A73D769B147E439D004C4421 /* MLLauncherDaemon.m */,
+				A7F64903147D507F00CFD036 /* Supporting Files */,
+			);
+			path = mllauncherd;
+			sourceTree = "<group>";
+		};
+		A7F64903147D507F00CFD036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7F64904147D507F00CFD036 /* mllauncherd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F648F9147D507F00CFD036 /* mllauncherd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F64909147D507F00CFD036 /* Build configuration list for PBXNativeTarget "mllauncherd" */;
+			buildPhases = (
+				A7F648F6147D507F00CFD036 /* Sources */,
+				A7F648F7147D507F00CFD036 /* Frameworks */,
+				A7F648F8147D507F00CFD036 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mllauncherd;
+			productName = mllauncherd;
+			productReference = A7F648FA147D507F00CFD036 /* mllauncherd */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F648F1147D507F00CFD036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = A7F648F4147D507F00CFD036 /* Build configuration list for PBXProject "mllauncherd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7F648EF147D507F00CFD036;
+			productRefGroup = A7F648FB147D507F00CFD036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F648F9147D507F00CFD036 /* mllauncherd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F648F6147D507F00CFD036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F64902147D507F00CFD036 /* main.m in Sources */,
+				A73D769C147E439D004C4421 /* MLLauncherDaemon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7F64907147D507F00CFD036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A7F64908147D507F00CFD036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A7F6490A147D507F00CFD036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mllauncherd/mllauncherd-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7F6490B147D507F00CFD036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/ManetLab-eyefuhoofswoxvduhdpjyvcagmwf/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mllauncherd/mllauncherd-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F648F4147D507F00CFD036 /* Build configuration list for PBXProject "mllauncherd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F64907147D507F00CFD036 /* Debug */,
+				A7F64908147D507F00CFD036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F64909147D507F00CFD036 /* Build configuration list for PBXNativeTarget "mllauncherd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F6490A147D507F00CFD036 /* Debug */,
+				A7F6490B147D507F00CFD036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F648F1147D507F00CFD036 /* Project object */;
+}

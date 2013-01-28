@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'mllauncherd' target in the 'mllauncherd' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreServices/CoreServices.h>
+#endif
