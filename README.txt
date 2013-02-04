@@ -21,7 +21,7 @@ Requirements:
 
 - OS X 10.7 or higher
 - a wired interface
-- wireless interface
+- a wireless interface
 
 Dependencies:
 -------------
@@ -31,12 +31,12 @@ Dependencies:
 Content:
 --------
 
-- MLBasePlugin:			Plugin with probabilistic algorithms for MANETs
 - ManetLabFramework:		Core of ManetLab
 - ManetLabPrefs:		System Preferences tab of ManetLab
 - MyFirstManetLabPlugin:	Tutorial to create your own plugin
 - mlcontroller:			ManetLab controller GUI app
 - mllauncherd:			ManetLab daemon
+- MLBasePlugin:  		Plugin with probabilistic dissemination algorithms for MANETs
 
 Installation:
 -------------
@@ -57,4 +57,4 @@ Available on http://doplab.unil.ch/manetlab.
 Feedback & bug reports:
 -----------------------
 
-Contact francois.vessaz@unil.ch
+Contact doplab@unil.ch
